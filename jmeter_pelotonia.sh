@@ -1,1 +1,1 @@
-/Applications/apache-jmeter-4.0/bin/jmeter -n -t Pelotonia_Web_Properties_Test_Plan.jmx -l Pelotonia_Web_Properties_Test_Plan.jtl -e -o Pelotonia
+jmeter -n -t Pelotonia_Web_Properties_Test_Plan.jmx -l Pelotonia_Web_Properties_Test_Plan.jtl -e -o Pelotonia
