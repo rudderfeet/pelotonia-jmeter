@@ -21,7 +21,6 @@
         <stringProp name="HTTPSampler.protocol"></stringProp>
         <stringProp name="HTTPSampler.contentEncoding"></stringProp>
         <stringProp name="HTTPSampler.path"></stringProp>
-        <boolProp name="HTTPSampler.image_parser">true</boolProp>
         <boolProp name="HTTPSampler.concurrentDwn">true</boolProp>
         <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
         <stringProp name="HTTPSampler.proxyHost">hnbproxy.hban.us</stringProp>
@@ -30,8 +29,8 @@
         <stringProp name="HTTPSampler.response_timeout">120000</stringProp>
       </ConfigTestElement>
       <hashTree/>
-      <DurationAssertion guiclass="DurationAssertionGui" testclass="DurationAssertion" testname="5 Second Duration Assertion" enabled="true">
-        <stringProp name="DurationAssertion.duration">5000</stringProp>
+      <DurationAssertion guiclass="DurationAssertionGui" testclass="DurationAssertion" testname="7 Second Duration Assertion" enabled="true">
+        <stringProp name="DurationAssertion.duration">7000</stringProp>
         <stringProp name="Assertion.scope">all</stringProp>
       </DurationAssertion>
       <hashTree/>
